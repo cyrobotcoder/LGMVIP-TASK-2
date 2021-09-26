@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+body {
+  background: linear-gradient(to right,rgba(255, 238, 0, 0.822),hsl(175,100%,50%));
+  background-size: cover;
+
+  
+}
+.navbar{
+  background:linear-gradient(to right,rgba(255, 136, 0, 0.822),rgb(255, 208, 0)) ;
+}
+.navbar2{
+  font-size: x-large;
+}
+.row1 {
+  margin: 20px;
+}
+.row1:after {
+  display: table;
+  clear: both;
+}
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 10 10px;
+  margin: 20px;
+}
+.card {
+  padding: 16px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 0px 5px 15px 0px rgb(14, 14, 14);
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
